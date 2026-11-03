@@ -1,0 +1,38 @@
+
+# Virtual environments
+venv/
+env/
+.venv/
+agentic_env/
+
+# Environment variables
+.env
+.env.*
+
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# ChromaDB vector database
+vector_db/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
